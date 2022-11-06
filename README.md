@@ -1,6 +1,7 @@
 # image-steganography-GUI
 
 Hide data by embedding the data in the text file into a image with a modern and simple tkinter GUI
+(Or extract data from a data-embedded image)
 
 ![first_screen](https://user-images.githubusercontent.com/101993364/200196667-0f6a0777-24a7-4831-a6ab-bb59abff38a6.png)
 
