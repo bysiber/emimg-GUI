@@ -90,7 +90,7 @@ class ImgStg():
         for i in range(1 , int(bin_len / 3) + 1)[::-1]:
             for j in range(3):
                 i_b = self._int_to_bin(map[w-1, h-i][j], single = True)
-                bin_block += str(self._bin_to_int(i_b[-1:], single = True))
+                bin_block += str(i_b[-1:])
         
 
 
