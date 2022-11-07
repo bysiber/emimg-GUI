@@ -9,4 +9,5 @@ Hide data by embedding the data in the text file into a image with a modern and 
 
 
 stepy by step working logic:
+
 ![img](https://user-images.githubusercontent.com/101993364/200428001-8cb82509-6221-427d-9537-615accbef44f.jpeg)
