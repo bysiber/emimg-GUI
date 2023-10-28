@@ -26,7 +26,7 @@ To use this project, follow these steps:
 # Steps
 ->[Stepy by step working logic]:
 1. Select an Image File
-2. Select a Text File
+2. Select a text file
 3ç Select a Destination Folder
 4. Click the "Embed Data" Button
 5. ^_^ After clicking the "Embed Data" button, your newly embedded image will be saved in the chosen destination folder. If you want to extract the data later, you can select the embedded image and use a simple extraction process.
