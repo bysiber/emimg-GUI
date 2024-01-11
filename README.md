@@ -26,9 +26,9 @@ To use this project, follow these steps:
 # Usage
 1. Run the main.py file located in the project's root directory. You can do this with the following command:
    ```bash
-   python main.py
+   -> python main.py
    OR
-   python3 main.py
+   -> python3 main.py
 
 # Steps
 ->[Stepy by step working logic]:
