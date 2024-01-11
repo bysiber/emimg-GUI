@@ -1,6 +1,8 @@
 from PIL import Image
-from fileHandler import fileHandler
+from file_handler import fileHandler
 from tkinter import messagebox
+from utils import compatible_path
+
 
 class ImgStg():
     def __init__(self,encoding="16bit"):
@@ -40,13 +42,13 @@ class ImgStg():
         if name==None:
             name = fileHandler.get_name_dir("embeded_img","png", path=path)
 
-        self.embed_img.save(path + "\\" + name)
+        self.embed_img.save(compatible_path(path + "\\" + name))
     
     def save_txt(self,path,name=None):
         if name==None:
             name = fileHandler.get_name_dir("extracted_text","txt",path=path)
         
-        fileHandler.write(self.extracted_text, path = path + "\\" + name)
+        fileHandler.write(self.extracted_text, path = compatible_path(path + "\\" + name))
 
     def resize_img(img, size):
         return img.resize(size)
@@ -142,7 +144,7 @@ class ImgStg():
         """this function Splits text into 16-bit chunks and 
         embeds it in the last bits of the image's color channels
         """
-        img = Image.open(img_p)
+        img = Image.open(compatible_path(img_p))
         txt = fileHandler.read(txt_p)
 
         img_w, img_h = img.size[0], img.size[1]
@@ -175,7 +177,7 @@ class ImgStg():
             messagebox.showinfo("Succesful !", "Data embedding was successful.")
 
     def _unmerge_txt(self, img_p, dest_p, showInfo=True):
-        img = Image.open(img_p)
+        img = Image.open(compatible_path(img_p))
         img_w, img_h = img.size[0], img.size[1]
         map = img.load()
         
