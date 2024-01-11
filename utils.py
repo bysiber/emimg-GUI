@@ -18,5 +18,5 @@ def compatible_path(path):
         # If the path is already in the correct format for the OS, return it as is
         return path
 
-
-print(compatible_path("Users\\user\\Desktop\\stegano\\resources\\test.txt"))
+#example
+#print(compatible_path("Users\\user\\Desktop\\stegano\\resources\\test.txt"))
