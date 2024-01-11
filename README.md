@@ -16,7 +16,6 @@ To use this project, follow these steps:
 
    ```bash
    # - WINDOWS Installation -
-   
    pip install pillow
    pip install tk
 
