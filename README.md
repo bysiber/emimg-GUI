@@ -15,11 +15,12 @@ To use this project, follow these steps:
 1. Install the required libraries. Use the following commands to install the PIL (Python Imaging Library) and tkinter libraries using pip:
 
    ```bash
-   - WINDOWS Installation - 
+   # - WINDOWS Installation -
+   
    pip install pillow
    pip install tk
 
-   - LINUX Installation -
+   # - LINUX Installation -
    sudo apt-get install python3-pil python3-pil.imagetk
    sudo apt-get install python3-tk
 
