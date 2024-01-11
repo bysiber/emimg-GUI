@@ -11,7 +11,6 @@ class fileHandler():
     def read(path):
         with open(path,"r",encoding='utf-8') as txt:
             return txt.read()
-    
 
     def get_name_dir(name="test", ext="txt", path="."):
         """
