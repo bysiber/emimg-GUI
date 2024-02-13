@@ -43,4 +43,4 @@ To use this project, follow these steps:
 ![img](https://user-images.githubusercontent.com/101993364/200428001-8cb82509-6221-427d-9537-615accbef44f.jpeg)
 
 # NOTE: 
-The GUI does not encrypt the text file provided as input. I haven't included this functionality in the code yet. Therefore, if you're going to store very important data, encrypt the data within the text file first and then provide it to the GUI.
+The GUI does not encrypt the text file provided as input. I haven't included this functionality in the code yet. Therefore, if you're going to hide very important data, encrypt the data within the text file first and then provide it to the GUI.
