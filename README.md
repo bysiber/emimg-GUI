@@ -1,5 +1,5 @@
 # image-steganography-GUI
-## + Now works on both Windows and Linux !
+
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
