@@ -7,6 +7,7 @@
   
 Hide data by embedding in the text file into a image with a modern and simple tkinter GUI
 (Or extract data from a data-embedded image)
+.
 => This GUI-application uses the Least Significant Bit (LSB) steganography method without encryption <=
 # Installation
 
